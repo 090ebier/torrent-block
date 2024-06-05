@@ -12,4 +12,4 @@ This script uses `iptables` to block torrent traffic on your server. It is desig
 To download and run the script using `curl`, use the following command:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/090ebier/torrent-blocking-script/main/block_torrent.sh | sudo bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/090ebier/torrent-blocking-script/main/block_torrent.sh)"
