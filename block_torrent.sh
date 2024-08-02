@@ -43,7 +43,6 @@ iptables -A MYCHAIN_OUTPUT -p TCP --dport 25 -j DROP
 iptables -A MYCHAIN_OUTPUT -p TCP --dport 465 -j DROP
 iptables -A MYCHAIN_OUTPUT -p TCP --dport 587 -j DROP
 
-# افزودن قوانین به chain MYCHAIN_FORWARD
 iptables -A MYCHAIN_FORWARD -m string --algo bm --string "GET /announce?info_hash=" -j DROP
 iptables -A MYCHAIN_FORWARD -m string --algo bm --string "GET /scrape?info_hash=" -j DROP
 iptables -A MYCHAIN_FORWARD -m string --algo bm --string "GET /announce.php?info_hash=" -j DROP
