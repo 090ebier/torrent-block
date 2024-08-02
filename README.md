@@ -1,4 +1,4 @@
-# Torrent Blocking Script
+# Torrent Block Script
 
 This script uses `iptables` to block torrent traffic on your server. It is designed to prevent the use of BitTorrent protocols by filtering common torrent-related traffic patterns and blocking specific ports.
 
